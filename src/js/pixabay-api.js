@@ -21,7 +21,7 @@ function onSearchButton(e) {
       color: '#EF4040',
       iconUrl: closeIcon,
       position: 'topRight',
-      message: 'Please,enter what do you want to find!',
+      message: 'Please, enter what do you want to find!',
     });
     return;
   }
@@ -34,7 +34,7 @@ function onSearchButton(e) {
 // ----Promise function----
 function getPhotos(inputSearch) {
   const searchParams = new URLSearchParams({
-    key: '42112521-3ff4dfc201bab0977369cd2bc',
+    key: '42306918-f68a47ae9b20261d6e2f05069',
     q: `${inputSearch}`,
     image_type: 'photo',
     orientation: 'horizontal',
